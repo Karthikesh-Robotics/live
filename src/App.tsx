@@ -14,6 +14,7 @@ import Footer from './components/Footer';
 import Internship from './components/internship';
 import Achievements from './pages/Achievements';
 import WorkshopDetail from './pages/WorkshopDetail';
+import WorkshopsPage from './pages/WorkshopsPage';
 import AboutPage from './pages/AboutPage';
 import ServicesPage from './pages/ServicesPage';
 import ProductsPage from './pages/ProductsPage';
@@ -107,6 +108,7 @@ function App() {
               <Route path="/products" element={<ProductsPage />} />
               <Route path="/products/bumpy" element={<BumpyBuildSteps />} />
               <Route path="/products/customrobot" element={<CustomRobotsPage />} />
+              <Route path="/workshops" element={<WorkshopsPage />} />
               <Route path="/careers" element={<CareersPage />} />
               <Route path="/contact" element={<ContactPage />} />
               <Route path="/community" element={<CommunityPage />} />
